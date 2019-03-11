@@ -1,0 +1,64 @@
+body{
+    background-color: tan;
+    font-family: Arail, sans-serif;
+}
+#left{
+    position: relative;
+    left: 20px;
+    bottom: -200px;
+    width: 12%;
+    color: white;
+}
+/* search box */
+.search-box{
+    width: 570px;
+    position: relative;
+    left: 45%;
+    display: inline-block;
+    font-size: 14px;
+}
+.search-box input[type="text"]{
+    height: 32px;
+    padding: 5px 10px;
+    color: grey;
+    border: 1px solid #CCCCCC;
+    font-size: 14px;
+}
+.result{
+    position: absolute;        
+    z-index: 999;
+    top: 100%;
+    left: 0;
+}
+.search-box input[type="text"], .result{
+    width: 100%;
+    box-sizing: border-box;
+}
+/* result items */
+.result p{
+    background-color: ghostwhite;
+    margin: 0;
+    padding: 7px 10px;
+    border: 1px solid #CCCCCC;
+    border-top: none;
+    cursor: pointer;
+}
+.result p:hover{
+    background:bisque;;
+}
+.result a{
+    text-decoration: none;
+    color:gray;
+}
+#img{
+    position: relative;
+    left: 15%;
+}
+.books{
+    position: relative;
+    left: 50%;
+    top: -650px;
+    color:gray;
+    font-size: 1.2em;
+    width: 33%;
+}
